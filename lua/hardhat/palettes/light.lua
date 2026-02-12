@@ -41,6 +41,7 @@ M.load_colors = function()
     white         = "#2f363e",
     white_light   = "#4a545e",
     white_dim     = "#69747f",
+    white_dimmer  = "#b3bfcc",
   }
 end
 
