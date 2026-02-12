@@ -10,10 +10,7 @@ M.defaults = {
 		bold = false,
 	},
 	transparent = false,
-	hl_overrides = {
-		-- Do follow this format
-		-- Title = { fg = "#888888", italic = true },
-	},
+	hl_overrides = {},
 }
 
 function M.get_active_plugins(user)
