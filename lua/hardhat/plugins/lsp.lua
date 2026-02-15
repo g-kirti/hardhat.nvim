@@ -7,9 +7,11 @@ M.load_plugin_syntax = function(p)
     -- ---------------------------------------------------------------------------
     ["@lsp.type.boolean"]                      = { fg = p.red },
     ["@lsp.type.number"]                       = { fg = p.red },
+
     ["@lsp.type.string"]                       = { fg = p.white_light },
     ["@lsp.typemod.string.injected"]           = { italic = true },
 
+    ["@lsp.type.regexp"]                       = { fg = p.green_light },
     ["@lsp.type.escapeSequence"]               = { fg = p.green_light },
     ["@lsp.type.formatSpecifier"]              = { fg = p.orange_light },
 
@@ -32,6 +34,9 @@ M.load_plugin_syntax = function(p)
     ["@lsp.typemod.keyword.async"]             = { fg = p.green_dim },
     ["@lsp.typemod.keyword.injected"]          = { italic = true },
 
+    ["@lsp.type.modifier"]                     = {},
+
+    ["@lsp.type.operator"]                     = {},
     ["@lsp.typemod.operator.injected"]         = { italic = true },
 
     -- ---------------------------------------------------------------------------
@@ -49,14 +54,16 @@ M.load_plugin_syntax = function(p)
     ["@lsp.type.struct"]                       = {},
     ["@lsp.type.class"]                        = {},
     ["@lsp.type.namespace"]                    = {},
+    ["@lsp.type.event"]                        = {},
 
     ["@lsp.type.enum"]                         = { fg = p.orange_dim },
     ["@lsp.type.enumMember"]                   = { fg = p.orange },
 
-    ["@lsp.type.interface"]                    = { fg = p.yellow },
+    ["@lsp.type.type"]                         = {},
     ["@lsp.type.typeAlias"]                    = { fg = p.yellow_dim },
     ["@lsp.type.typeParameter"]                = { fg = p.yellow_light },
     ["@lsp.type.generic"]                      = { fg = p.yellow_dim },
+    ["@lsp.type.interface"]                    = { fg = p.yellow },
 
     ["@lsp.type.lifetime"]                     = { fg = p.blue_dim, italic = true },
 
@@ -90,6 +97,11 @@ M.load_plugin_syntax = function(p)
     -- DIAGNOSTICS
     -- ---------------------------------------------------------------------------
     ["@lsp.type.unresolvedReference"]          = { fg = p.red, bold = true },
+
+    -- ---------------------------------------------------------------------------
+    -- DOCUMENTATION
+    -- ---------------------------------------------------------------------------
+    ["@lsp.type.comment"]                      = { link = "@comment"},
 
     -- ---------------------------------------------------------------------------
     -- MODS
