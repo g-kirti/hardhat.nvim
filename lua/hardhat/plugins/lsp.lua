@@ -36,7 +36,7 @@ M.load_plugin_syntax = function(p)
 
     ["@lsp.type.modifier"]                     = {},
 
-    ["@lsp.type.operator"]                     = {},
+    ["@lsp.type.operator"]                     = { link = "@operator"},
     ["@lsp.typemod.operator.injected"]         = { italic = true },
 
     -- ---------------------------------------------------------------------------
