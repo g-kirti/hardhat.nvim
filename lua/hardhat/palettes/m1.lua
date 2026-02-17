@@ -2,7 +2,7 @@ local M = {}
 
 M.load_colors = function()
   return {
-    fg            = "#ced1ba",
+    fg            = "#c4c7b1",
     bg            = "#262c1c",
 
     bg_light      = "#3a4529",
@@ -26,20 +26,20 @@ M.load_colors = function()
     yellow_light  = "#eee58a",
     yellow_dim    = "#b69e0a",
 
-    blue          = "#338e88",
+    blue          = "#2f9992",
     blue_light    = "#74b7b2",
     blue_dim      = "#1f716d",
 
-    orange        = "#b8724c",
+    orange        = "#c28257",
     orange_light  = "#e0b38b",
-    orange_dim    = "#91593f",
+    orange_dim    = "#91603f",
 
     cyan          = "#3f7ca9",
     cyan_light    = "#8cb6d4",
-    cyan_dim      = "#2c5a7a",
+    cyan_dim      = "#306185",
 
     white         = "#acac9c",
-    white_light   = "#c1c0b0",
+    white_light   = "#c2c1b4",
     white_dim     = "#89886f",
     white_dimmer  = "#595950",
   }
