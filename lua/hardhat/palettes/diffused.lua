@@ -2,7 +2,7 @@ local M = {}
 
 M.load_colors = function()
   return {
-    fg            = "#b3bdc5",
+    fg            = "#afbbc4",
     bg            = "#2a2f33",
 
     bg_light      = "#33393e",
