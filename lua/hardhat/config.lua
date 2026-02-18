@@ -14,7 +14,7 @@ M.defaults = {
 }
 
 function M.get_active_plugins(user)
-	if user == nil or user == true or user == {} then
+	if user == nil or user == true then
 		return SUPPORTED_PLUGINS
 	end
 
