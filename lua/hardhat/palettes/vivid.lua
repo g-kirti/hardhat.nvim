@@ -2,7 +2,7 @@ local M = {}
 
 M.load_colors = function()
   return {
-    fg            = "#e8eef4",
+    fg            = "#e4ecf5",
     bg            = "#15181b",
 
     bg_light      = "#1c2125",
@@ -39,7 +39,7 @@ M.load_colors = function()
     cyan_dim      = "#23a9ad",
 
     white         = "#d4d9dd",
-    white_light   = "#f5f7f9",
+    white_light   = "#e8e9eb",
     white_dim     = "#9a9fa3",
     white_dimmer  = "#4a545e",
   }
