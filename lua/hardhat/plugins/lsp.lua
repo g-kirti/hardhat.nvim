@@ -74,7 +74,7 @@ M.load_plugin_syntax = function(p)
     ["@lsp.type.selfTypeKeyword"]              = { fg = p.cyan_dim, italic = true },
 
     ["@lsp.type.builtinType"]                  = { fg = p.orange_dim },
-    ["@lsp.typemod.class.defaultLibrary"]      = { fg = p.red },
+    ["@lsp.typemod.class.defaultLibrary"]      = { fg = p.cyan },
 
     ["@lsp.typemod.struct.defaultLibrary"]     = { fg = p.orange_dim },
 
