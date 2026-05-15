@@ -17,6 +17,8 @@ M.load_base_syntax = function(p)
         CursorColumn             = { bg = p.accent1 },
         ColorColumn              = { bg = p.accent1 },
 
+        MatchParen               = { bg = p.accent2, bold = true},
+
         LineNr                   = { fg = p.black_light },
         CursorLineNr             = { fg = p.yellow_dim, bold = true },
 

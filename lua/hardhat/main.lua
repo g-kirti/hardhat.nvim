@@ -48,9 +48,6 @@ function M.load(opts, palette)
 		vim.cmd("syntax reset")
 	end
 
-	vim.o.termguicolors = true
-	vim.g.colors_name = "hardhat"
-
 	-- get highlights
 	local palette_path = "hardhat.palettes." .. palette
 	local p = require(palette_path).load_colors()
