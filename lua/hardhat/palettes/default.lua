@@ -6,7 +6,7 @@ M.load_colors = function()
 		bg            = "#222629",
 
 		bg_light      = "#2a2f33",
-		bg_dark       = "#13171b",
+		bg_dark       = "#181c21",
 
 		accent1       = "#2b3135",
 		accent2       = "#3d464c",
