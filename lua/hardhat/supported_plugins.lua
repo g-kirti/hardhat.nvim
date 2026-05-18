@@ -1,4 +1,5 @@
 return {
-	lsp = true,
-	treesitter = true,
+	lsp					= true,
+	treesitter	= true,
+	neotree			= true,
 }
