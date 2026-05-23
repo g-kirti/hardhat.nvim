@@ -10,6 +10,7 @@ M.load_colors = function()
 
     accent1       = "#c5ced8",
     accent2       = "#b3bfcc",
+    accent3       = "#b3bfcc",
 
     black         = "#1b2127",
     black_light   = "#5c6874",
@@ -41,7 +42,6 @@ M.load_colors = function()
     white         = "#2f363e",
     white_light   = "#4a545e",
     white_dim     = "#69747f",
-    white_dimmer  = "#b3bfcc",
   }
 end
 
