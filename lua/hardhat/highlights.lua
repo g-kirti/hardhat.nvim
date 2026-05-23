@@ -47,7 +47,7 @@ M.load_base_syntax = function(p)
         PmenuThumb               = { bg = p.black_light },
         PmenuBorder              = { fg = p.yellow_dim, bg = p.bg },
 
-        Whitespace               = { fg = p.white_dimmer },
+        Whitespace               = { fg = p.accent3 },
         NonText                  = { fg = p.black_light },
 
         --              >>> Std Syntax <<<
