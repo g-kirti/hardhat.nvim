@@ -74,7 +74,7 @@ M.load_plugin_syntax = function(p)
     ["@type.builtin"]            = { fg = p.orange_dim },
 
     ["@constructor"]             = { fg = p.yellow },
-    ["@attribute"]               = { fg = p.blue_light },
+    ["@attribute"]               = { fg = p.cyan_dim },
 
     ["@module"]                  = { fg = p.cyan_dim },
     ["@module.builtin"]          = { fg = p.cyan_dim },
