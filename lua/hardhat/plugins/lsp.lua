@@ -6,14 +6,14 @@ M.load_plugin_syntax = function(p)
     -- LITERALS
     -- ---------------------------------------------------------------------------
     ["@lsp.type.boolean"]                      = { fg = p.red },
-    ["@lsp.type.number"]                       = { fg = p.red },
+    ["@lsp.type.number"]                       = { fg = p.red_light },
 
     ["@lsp.type.string"]                       = { fg = p.white_light },
     ["@lsp.typemod.string.injected"]           = { italic = true },
 
     ["@lsp.type.regexp"]                       = { fg = p.green_light },
     ["@lsp.type.escapeSequence"]               = { fg = p.green_light },
-    ["@lsp.type.formatSpecifier"]              = { fg = p.orange_light },
+    ["@lsp.type.formatSpecifier"]              = { fg = p.green_light },
 
     -- ---------------------------------------------------------------------------
     -- IDENTIFIERS
@@ -88,7 +88,7 @@ M.load_plugin_syntax = function(p)
     -- METAPROGRAMMING
     -- ---------------------------------------------------------------------------
     ["@lsp.type.macro"]                        = {},
-    ["@lsp.typemod.macro.defaultLibrary"]      = { fg = p.cyan },
+    ["@lsp.typemod.macro.defaultLibrary"]      = { fg = p.cyan_light },
 
     ["@lsp.type.decorator"]                    = { fg = p.blue_light, italic = true },
     ["@lsp.type.deriveHelper"]                 = { fg = p.blue_light, italic = true },
@@ -107,6 +107,7 @@ M.load_plugin_syntax = function(p)
     -- MODS
     -- ---------------------------------------------------------------------------
     ["@lsp.mod.declaration"]                   = { bold = true },
+    ["@lsp.typemod.macro.globalScope"]         = { fg = p.orange_light},
   }
 end
 

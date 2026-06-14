@@ -5,7 +5,7 @@ M.load_plugin_syntax = function(p)
     -- ---------------------------------------------------------------
     -- LITERALS
     -- ---------------------------------------------------------------
-    ["@number"]                  = { fg = p.red },
+    ["@number"]                  = { fg = p.red_light },
     ["@float"]                   = { fg = p.red },
     ["@boolean"]                 = { fg = p.red },
 
@@ -19,6 +19,7 @@ M.load_plugin_syntax = function(p)
 
     ["@constant"]                = { fg = p.orange },
     ["@constant.builtin"]        = { fg = p.red },
+    ["@constant.macro"]          = { fg = p.orange_light },
 
     -- -----------------------------------------------------------------
     -- IDENTIFIERS
@@ -61,7 +62,7 @@ M.load_plugin_syntax = function(p)
     ["@function.call"]           = { fg = p.green }, -- execution
     ["@function.method.call"]    = { fg = p.green },
 
-    ["@function.macro"]          = { fg = p.cyan },
+    ["@function.macro"]          = { fg = p.yellow_light },
     ["@function.builtin"]        = { fg = p.cyan },
 
     -- -----------------------------------------------------------------
