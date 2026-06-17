@@ -2,7 +2,7 @@ local M = {}
 
 M.load_colors = function()
   return {
-    fg            = "#1f262d",
+    fg            = "#232c34",
     bg            = "#e1e7ed",
 
     bg_light      = "#f0f4f8",
@@ -12,36 +12,36 @@ M.load_colors = function()
     accent2       = "#b3bfcc",
     accent3       = "#b3bfcc",
 
-    black         = "#1b2127",
-    black_light   = "#5c6874",
+    black         = "#acb7bf",
+    black_light   = "#8e979e",
 
-    red           = "#b43229",
-    red_light     = "#dc756b",
-    red_dim       = "#952d24",
+    red           = "#a53a33",
+    red_light     = "#c86b64",
+    red_dim       = "#87302b",
 
-    green         = "#789000",
-    green_light   = "#a2ba48",
-    green_dim     = "#5f7200",
+    green         = "#6f8a1c",
+    green_light   = "#91a847",
+    green_dim     = "#586d16",
 
-    yellow        = "#b18400",
-    yellow_light  = "#d2b24a",
-    yellow_dim    = "#8b6900",
+    yellow        = "#a18410",
+    yellow_light  = "#bd9f45",
+    yellow_dim    = "#836a0e",
 
-    blue          = "#2c689f",
-    blue_light    = "#669dd0",
-    blue_dim      = "#23527a",
+    blue          = "#2f648c",
+    blue_light    = "#5f88ae",
+    blue_dim      = "#254f6f",
 
-    orange        = "#b65712",
-    orange_light  = "#d78543",
-    orange_dim    = "#90430e",
+    orange        = "#a96325",
+    orange_light  = "#c48652",
+    orange_dim    = "#874e1f",
 
-    cyan          = "#197a8f",
-    cyan_light    = "#55a9bb",
-    cyan_dim      = "#135e6d",
+    cyan          = "#2f7380",
+    cyan_light    = "#5a96a5",
+    cyan_dim      = "#265c66",
 
-    white         = "#2f363e",
-    white_light   = "#4a545e",
-    white_dim     = "#69747f",
+    white         = "#3e464f",
+    white_light   = "#58616b",
+    white_dim     = "#6c7681",
   }
 end
 
