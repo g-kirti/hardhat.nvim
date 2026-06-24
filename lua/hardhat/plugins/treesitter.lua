@@ -6,8 +6,8 @@ M.load_plugin_syntax = function(p)
     -- LITERALS
     -- ---------------------------------------------------------------
     ["@number"]                  = { fg = p.red_light },
-    ["@float"]                   = { fg = p.red },
-    ["@boolean"]                 = { fg = p.red },
+    ["@float"]                   = { fg = p.red_light },
+    ["@boolean"]                 = { fg = p.red_light },
 
     ["@string"]                  = { fg = p.white_light },
     ["@string.escape"]           = { fg = p.green_light },
@@ -18,7 +18,7 @@ M.load_plugin_syntax = function(p)
     ["@character"]               = { fg = p.cyan },
 
     ["@constant"]                = { fg = p.orange },
-    ["@constant.builtin"]        = { fg = p.red },
+    ["@constant.builtin"]        = { fg = p.red_light },
     ["@constant.macro"]          = { fg = p.orange_light },
 
     -- -----------------------------------------------------------------

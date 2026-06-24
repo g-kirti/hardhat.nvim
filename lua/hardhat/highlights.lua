@@ -56,8 +56,8 @@ M.load_base_syntax = function(p)
         String                   = { fg = p.white_light },
         Character                = { fg = p.cyan },
         Number                   = { fg = p.red_light },
-        Boolean                  = { fg = p.red },
-        Float                    = { fg = p.red },
+        Boolean                  = { fg = p.red_light },
+        Float                    = { fg = p.red_light },
 
         Identifier               = { fg = p.fg },
         Function                 = { fg = p.green },
