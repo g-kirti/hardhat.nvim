@@ -15,7 +15,7 @@ M.load_plugin_syntax = function(p)
     ["@string.special.regexp"]   = { fg = p.red, bold = true },
     ["@string.special.url"]      = { fg = p.cyan, underline = true },
 
-    ["@character"]               = { fg = p.cyan },
+    ["@character"]               = { fg = p.white_light },
 
     ["@constant"]                = { fg = p.orange },
     ["@constant.builtin"]        = { fg = p.red_light },

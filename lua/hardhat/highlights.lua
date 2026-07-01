@@ -57,7 +57,7 @@ M.load_base_syntax = function(p)
         Comment                  = { fg = p.black_light },
         Constant                 = { fg = p.orange },
         String                   = { fg = p.white_light },
-        Character                = { fg = p.cyan },
+        Character                = { fg = p.white_light },
         Number                   = { fg = p.red_light },
         Boolean                  = { fg = p.red_light },
         Float                    = { fg = p.red_light },
