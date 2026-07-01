@@ -6,6 +6,7 @@ M.load_base_syntax = function(p)
         Normal                   = { fg = p.fg, bg = p.bg },
         NormalNC                 = { fg = p.fg, bg = p.bg },
         SignColumn               = { fg = p.fg, bg = p.bg },
+        Folded                   = { fg = p.black_light, bg = p.bg_dark },
         FoldColumn               = { fg = p.black_light, bg = p.bg },
         EndOfBuffer              = { fg = p.bg, bg = p.bg },
 
@@ -17,7 +18,7 @@ M.load_base_syntax = function(p)
         CursorColumn             = { bg = p.accent1 },
         ColorColumn              = { bg = p.accent1 },
 
-        MatchParen               = { bg = p.accent2, bold = true},
+        MatchParen               = { bg = p.accent2, bold = true },
 
         LineNr                   = { fg = p.black_light },
         CursorLineNr             = { fg = p.yellow_dim, bold = true },
@@ -30,6 +31,8 @@ M.load_base_syntax = function(p)
 
         StatusLine               = { fg = p.fg, bg = p.bg_dark },
         StatusLineNC             = { fg = p.black_light, bg = p.bg_dark },
+
+        QuickFixline             = { fg = p.cyan },
 
         Search                   = { fg = p.black, bg = p.yellow },
         IncSearch                = { fg = p.black, bg = p.orange },
@@ -74,7 +77,7 @@ M.load_base_syntax = function(p)
         PreProc                  = { fg = p.orange },
         Define                   = { fg = p.orange },
         PreCondit                = { fg = p.orange },
-        Macro                    = { fg = p.cyan },
+        Macro                    = { fg = p.orange_light },
 
         Type                     = { fg = p.yellow_dim },
         StorageClass             = { fg = p.yellow_dim },
@@ -101,20 +104,31 @@ M.load_base_syntax = function(p)
         DiffDelete               = { fg = p.red_dim, bg = p.bg_dark },
         DiffText                 = { fg = p.cyan_dim, bg = p.bg_dark },
 
-        --              >>> Diagnostics <<<
+        --              >>> Messages <<<
         ErrorMsg                 = { fg = p.red },
         WarningMsg               = { fg = p.yellow },
         OkMsg                    = { fg = p.green },
+        ModeMsg                  = { fg = p.yellow_light },
+        MoreMsg                  = { fg = p.green_light },
+
+        --              >>> Diagnostics <<<
         DiagnosticError          = { fg = p.red },
         DiagnosticWarn           = { fg = p.yellow },
         DiagnosticInfo           = { fg = p.blue },
         DiagnosticHint           = { fg = p.blue },
         DiagnosticOk             = { fg = p.green },
         DiagnosticUnnecessary    = { fg = p.white },
+        DiagnosticDeprecated     = { fg = p.white, strikethrough = true },
         DiagnosticUnderlineError = { sp = p.red, undercurl = true },
         DiagnosticUnderlineWarn  = { sp = p.yellow, undercurl = true },
         DiagnosticUnderlineInfo  = { sp = p.blue, undercurl = true },
         DiagnosticUnderlineHint  = { sp = p.blue, undercurl = true },
+
+        --              >>> Spelling <<<
+        SpellBad                 = { sp = p.red_light, undercurl = true },
+        SpellCap                 = { sp = p.yellow_light, undercurl = true },
+        SpellRare                = { sp = p.cyan_light, undercurl = true },
+        SpellLocal               = { sp = p.green_light, undercurl = true }
     }
 end
 
