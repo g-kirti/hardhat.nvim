@@ -8,8 +8,8 @@ M.load_colors = function()
     bg_light      = "#3a4529",
     bg_dark       = "#1b2115",
 
-    accent1       = "#4c5538",
-    accent2       = "#5b6542",
+    accent1       = "#363b27",
+    accent2       = "#464d2e",
     accent3       = "#55594a",
 
     black         = "#1a1d14",
