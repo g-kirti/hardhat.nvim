@@ -106,7 +106,7 @@ M.load_plugin_syntax = function(p)
     -- ---------------------------------------------------------------------------
     -- MODS
     -- ---------------------------------------------------------------------------
-    ["@lsp.mod.declaration"]                   = { bold = true },
+    ["@lsp.mod.declaration"]                   = {},
     ["@lsp.typemod.macro.globalScope"]         = { fg = p.orange_light},
   }
 end

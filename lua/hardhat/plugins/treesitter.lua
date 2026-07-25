@@ -56,8 +56,8 @@ M.load_plugin_syntax = function(p)
     -- -----------------------------------------------------------------
     -- FUNCTIONS & METHODS
     -- -----------------------------------------------------------------
-    ["@function"]                = { fg = p.yellow, bold = true },
-    ["@function.method"]         = { fg = p.yellow, bold = true },
+    ["@function"]                = { fg = p.yellow },
+    ["@function.method"]         = { fg = p.yellow },
 
     ["@function.call"]           = { fg = p.green }, -- execution
     ["@function.method.call"]    = { fg = p.green },
