@@ -16,6 +16,7 @@ M.load_plugin_syntax = function(p)
     ["@string.special.url"]      = { fg = p.cyan, underline = true },
 
     ["@character"]               = { fg = p.white_light },
+    ["@character.special"]       = { fg = p.cyan_light },
 
     ["@constant"]                = { fg = p.orange },
     ["@constant.builtin"]        = { fg = p.red_light },
@@ -49,6 +50,7 @@ M.load_plugin_syntax = function(p)
     ["@keyword.exception"]       = { fg = p.green_dim },
 
     ["@keyword.import"]          = { fg = p.red_dim },
+    ["@keyword.debug"]           = { fg = p.cyan_light },
 
     ["@label"]                   = { fg = p.yellow },
     ["@storageclass"]            = { fg = p.orange_dim },
@@ -75,13 +77,14 @@ M.load_plugin_syntax = function(p)
     ["@type.builtin"]            = { fg = p.orange_dim },
 
     ["@constructor"]             = { fg = p.yellow },
-    ["@attribute"]               = { fg = p.cyan_dim },
+    ["@attribute"]               = { fg = p.yellow_light },
+    ["@attribute.builtin"]       = { fg = p.cyan_light },
 
     ["@module"]                  = { fg = p.cyan_dim },
     ["@module.builtin"]          = { fg = p.cyan_dim },
 
     -- -----------------------------------------------------------------
-    -- OPERATORS & PUNCTUATION  
+    -- OPERATORS & PUNCTUATION
     -- -----------------------------------------------------------------
     ["@operator"]                = { fg = p.white },
 
