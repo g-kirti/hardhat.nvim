@@ -17,7 +17,7 @@ M.load_colors = function()
 
     red           = "#c3473c",
     red_light     = "#d46d63",
-    red_dim       = "#9b372e",
+    red_dim       = "#ae392f",
 
     green         = "#aeb417",
     green_light   = "#b9bf6a",
@@ -31,13 +31,13 @@ M.load_colors = function()
     blue_light    = "#76aec1",
     blue_dim      = "#4684a0",
 
-    orange        = "#c27727",
-    orange_light  = "#cf9560",
-    orange_dim    = "#b5620e",
+    orange        = "#c28427",
+    orange_light  = "#cfa25f",
+    orange_dim    = "#c47c10",
 
-    cyan          = "#36989c",
-    cyan_light    = "#6ea9ac",
-    cyan_dim      = "#2a8487",
+    cyan          = "#36919c",
+    cyan_light    = "#6da2ab",
+    cyan_dim      = "#2c858f",
 
     white         = "#9aa0a4",
     white_light   = "#b0b4b8",

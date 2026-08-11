@@ -31,13 +31,13 @@ M.load_colors = function()
     blue_light    = "#79c2e6",
     blue_dim      = "#4299c1",
 
-    orange        = "#e88b2d",
-    orange_light  = "#eaa667",
-    orange_dim    = "#ca7218",
+    orange        = "#e89d2c",
+    orange_light  = "#ebb667",
+    orange_dim    = "#d98d1a",
 
-    cyan          = "#39c2c8",
-    cyan_light    = "#63c9cd",
-    cyan_dim      = "#289ea3",
+    cyan          = "#38b9c7",
+    cyan_light    = "#62c1cc",
+    cyan_dim      = "#279eab",
 
     white         = "#c6ccd1",
     white_light   = "#dde1e4",
